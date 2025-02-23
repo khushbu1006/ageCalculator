@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+</head>
+<body>
+    <div class="container" id="main-container">
+        <h1>Age Calculator</h1>
+        <hr />
+        <div id="first-dob">
+            <h3>First Person</h3>
+            <div class="main">
+                <input type="number" id="first-day" placeholder="DD" min="1" max="31" required />
+                <input type="number" id="first-month" placeholder="MM" min="1" max="12" required />
+                <input type="number" id="first-year" placeholder="YYYY" min="1900" max="2025" required />
+            </div>
+        </div>
+        
+        <div id="second-dob" style="display: none;">
+            <h3>Second Person</h3>
+            <div class="main">
+                <input type="number" id="second-day" placeholder="DD" min="1" max="31" required />
+                <input type="number" id="second-month" placeholder="MM" min="1" max="12" required />
+                <input type="number" id="second-year" placeholder="YYYY" min="1900" max="2025" required />
+            </div>
+        </div>
+
+        <button onclick="showSecondDOB()">Distance</button>
+        <button onclick="calculateAge()">Calculate</button>
+        <button onclick="resetFields()">Reset</button>
+        <p id="result"></p>
+    </div>
+    <script src="age.js"></script>
+</body>
+</html>

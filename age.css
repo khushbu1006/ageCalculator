@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(135deg, rgb(74, 74, 205), rgb(30, 30, 201));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+  }
+  .container {
+    background-color:whitesmoke;
+    height: auto;
+    width: 650px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 15px rgb(196, 192, 192);
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+  }
+  button {
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 3% 5%;
+    color: white;
+    font-weight:900;
+    font-size: 1.7vh;
+    margin: 40px 10px 10px 10px;
+    margin-top: 20%;
+    background-color:rgb(62, 62, 235);
+  }
+  input{
+    margin-top: 5px;
+    border: 3px solid blue;
+    font-size: 2vh;
+    border-radius: 5px;
+    padding: 3% 5%;
+    text-align: center;
+  }
+  #text{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+  h1{
+    color: rgb(85, 85, 210);
+    font-size:5vh;
+  }
+  h3{
+    color: blue;
+    font-size:2.3vh;
+  }
+  hr{
+    border: 1px solid rgb(83, 83, 226);
+  }
+.result-text{
+  font-size: 3cap;
+  color:darkslategray;
+}
+.error-heading{
+  color: rgb(231, 6, 6);
+}
+.error-text{
+  font-size: 3cap;
+  color:darkslategray;
+}
+
+
